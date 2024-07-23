@@ -23536,7 +23536,7 @@ const fR = ()=>{
   , vR = ({children: e})=>{
     const [t,n] = he([p8, Or])
       , [r] = he([gn.pending])
-      , s = true
+      , s = false
       , {isPCScreen: s222, isRendered: i} = fR();
     return s ? h.jsx(S8, {}) : r || !t.user || !n.user || !i.current ? h.jsx(xR, {}) : h.jsx(h.Fragment, {
         children: e
